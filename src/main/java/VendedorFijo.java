@@ -1,5 +1,3 @@
-package main;
-
 public class VendedorFijo extends Vendedor {
 
     private Ciudad ciudadEnLaQueVive;

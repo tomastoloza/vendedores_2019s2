@@ -1,5 +1,3 @@
-package main;
-
 public class ClienteDetallista extends Cliente {
     @Override
     public boolean puedeSerAtendido(Vendedor vendedor) {

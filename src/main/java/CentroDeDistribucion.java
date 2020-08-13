@@ -1,5 +1,3 @@
-package main;
-
 import java.util.HashSet;
 
 public class CentroDeDistribucion {
@@ -63,5 +61,9 @@ public class CentroDeDistribucion {
 
     public boolean esVendedorCandidato(Vendedor vendedor) {
         return vendedor.esVersatil() && vendedor.tieneAfinidad(this);
+    }
+
+    public HashSet<Vendedor> getVendedores(){
+        return this.vendedores;
     }
 }

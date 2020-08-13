@@ -1,5 +1,3 @@
-package main;
-
 public class Provincia {
     private long poblacion;
     private String nombre;

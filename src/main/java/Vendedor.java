@@ -1,9 +1,7 @@
-package main;
-
 import java.util.ArrayList;
 
 public abstract class Vendedor {
-    private ArrayList<Certificacion> certicaciones;
+    private ArrayList<Certificacion> certicaciones = new ArrayList<>();
 
     //Test: ver si es firme antes y despues de una certificacion otorgada
     public boolean esVersatil() {

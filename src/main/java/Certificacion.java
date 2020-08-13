@@ -1,5 +1,3 @@
-package main;
-
 public class Certificacion {
     private int puntos;
     private boolean esProducto;

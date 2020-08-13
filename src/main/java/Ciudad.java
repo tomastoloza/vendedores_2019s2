@@ -1,5 +1,3 @@
-package main;
-
 public class Ciudad {
     private Provincia provincia;
     private String nombre;
